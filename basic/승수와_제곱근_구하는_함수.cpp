@@ -14,8 +14,8 @@ int main() {
 	// 2. 제곱근 구하기
 	// sqrt() 또한 반환타입이 double 이라서,
 	// 정수로 반환하거나 출력시 int 형변환을 해주면 된다.
-	int n = 16;
-	int result = (int)sqrt(n); // n의 제곱근은?
+	n = 16;
+	result = (int)sqrt(n); // n의 제곱근은?
 	cout << result << "\n";
 
 	return 0;
