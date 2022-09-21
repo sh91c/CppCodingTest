@@ -19,43 +19,48 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="basic\lower_bound__upper_bound.cpp">
+    <None Include="basic\lower_bound__upper_bound.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="basic\lower_bound__upper_bound_추가내용.cpp">
+    </None>
+    <None Include="basic\lower_bound__upper_bound_추가내용.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="basic\배열의_부분_범위_회전.cpp">
+    </None>
+    <None Include="basic\배열의_부분_범위_회전.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="basic\배열의_합__배열_중_가장_큰_또는_작은_값.cpp">
+    </None>
+    <None Include="basic\배열의_합__배열_중_가장_큰_또는_작은_값.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="basic\순열_조합.cpp">
+    </None>
+    <None Include="basic\순열_조합.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="basic\승수와_제곱근_구하는_함수.cpp">
+    </None>
+    <None Include="basic\승수와_제곱근_구하는_함수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="basic\시계방향과_반시계방향회전.cpp">
+    </None>
+    <None Include="basic\시계방향과_반시계방향회전.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="basic\에라토스테네스의_체.cpp">
+    </None>
+    <None Include="basic\에라토스테네스의_체.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="basic\최대공약수_최소공배수.cpp">
+    </None>
+    <None Include="basic\최대공약수_최소공배수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="basic\함수인자로_전달해서_변수_수정하기.cpp">
+    </None>
+    <None Include="basic\함수인자로_전달해서_변수_수정하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="BOJ\2309\my_sol.cpp">
+    </None>
+    <ClCompile Include="BOJ\10808\my_sol.cpp" />
+    <None Include="BOJ\2309\my_sol.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="BOJ\2309\sol_1.cpp">
+    </None>
+    <None Include="BOJ\2309\sol_1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="BOJ\2309\sol_2.cpp" />
+    </None>
+    <None Include="BOJ\2309\sol_2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BOJ\10808\10808.txt" />
+    <Content Include="BOJ\2309\2309.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
