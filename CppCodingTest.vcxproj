@@ -49,18 +49,23 @@
     <None Include="basic\함수인자로_전달해서_변수_수정하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </None>
-    <ClCompile Include="BOJ\10808\my_sol.cpp" />
-    <None Include="BOJ\2309\my_sol.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </None>
-    <None Include="BOJ\2309\sol_1.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </None>
-    <None Include="BOJ\2309\sol_2.cpp" />
+    <None Include="BOJ\week1\1_2309\my_sol.cpp" />
+    <None Include="BOJ\week1\1_2309\sol_1.cpp" />
+    <None Include="BOJ\week1\1_2309\sol_2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BOJ\10808\10808.txt" />
-    <Content Include="BOJ\2309\2309.txt" />
+    <Content Include="BOJ\week1\2_10808\10808.txt" />
+    <Content Include="BOJ\week1\1_2309\2309.txt" />
+    <Content Include="BOJ\week1\3_2979\2979.txt" />
+    <Content Include="BOJ\week1\4_10988\10988.txt" />
+    <Content Include="BOJ\week1\5_1159\1159.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BOJ\week1\5_1159\my_sol.cpp" />
+    <None Include="BOJ\week1\3_2979\my_sol.cpp" />
+    <None Include="BOJ\week1\4_10988\my_sol.cpp" />
+    <None Include="BOJ\week1\2_10808\my_sol.cpp" />
+    <None Include="BOJ\week1\2_10808\my_sol_2.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
